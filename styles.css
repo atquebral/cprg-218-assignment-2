@@ -9,3 +9,7 @@ header{
 main{
     display:flex;
 }
+
+body {
+    background-color: #efe1c7;
+}
