@@ -1,0 +1,11 @@
+*{
+	box-sizing:border-box;
+}
+
+header{
+    display: flex;
+}
+
+main{
+    display:flex;
+}
