@@ -19,16 +19,24 @@ body{
 
 main{
     display:flex;
+    justify-content: center;
     background-color: #000000;
     color: #efe1c7;
     padding: 5%;
 }
 
-.season1{
-    body{
-        background-color: #f5dbdc;
-        color: #e5699e;
+.intro{
+    background-color: #efe1c7;
+    color: #000000;
+    main{
+        background-color: #000000;
+        color: #efe1c7;
     }
+}
+
+.season1{
+    background-color: #f5dbdc;
+    color: #e5699e;
     main{
         background-color: #e5699e;
         color: #f5dbdc;
@@ -36,10 +44,8 @@ main{
 }
 
 .season2{
-    body{
-        background-color: #dde35f;
-        color: #304a0c;
-    }
+    background-color: #dde35f;
+    color: #304a0c;
     main{
         background-color: #304a0c;
         color: #dde35f;
@@ -47,10 +53,8 @@ main{
 }
 
 .season3{
-    body{
-        background-color: #f58e03;
-        color: #f5dbdc;
-    }
+    background-color: #f58e03;
+    color: #f5dbdc;
     main{
         background-color: #f5dbdc;
         color: #f58e03;
@@ -58,10 +62,8 @@ main{
 }
 
 .season4{
-    body{
-        background-color: #e5699e;
-        color: #dde35f;
-    }
+    background-color: #e5699e;
+    color: #dde35f;
     main{
         background-color:#dde35f;
         color: #e5699e;
@@ -69,12 +71,19 @@ main{
 }
 
 .season5{
-    body{
-        background-color: #304a0c;
-        color: #f5dbdc;
-    }
+    background-color: #304a0c;
+    color: #f5dbdc;
     main{
-        background-color:#304a0c;
+        background-color:#f5dbdc;
+        color: #304a0c;
+    }
+}
+
+.season6{
+    background-color: #f5dbdc;
+    color: #f58e03;
+    main{
+        background-color: #f58e03;
         color: #f5dbdc;
     }
 }
